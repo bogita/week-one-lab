@@ -28,9 +28,7 @@ public class Menu {
 	 * Note Beef Meal 1 is in index 1
 	 * */
 	private void printMenuList(String[] menu) {
-		for (int i = 0; i < menu.length; i++) {
-			System.out.println((i + 1) + " " + menu[i]+"\n");
-		}
+		//Use for loop to print list
 	}
 
 	/*
