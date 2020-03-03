@@ -5,5 +5,5 @@ public class UserData {
 	public double interest;
 	public int years;
 	public double amount;
-
+	
 }
