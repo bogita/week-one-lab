@@ -6,7 +6,7 @@ public class MenuRunner {
 
 	public static void main(String[] args) {
 		
-		//Add your loop logic to display/read option
+		//Declare your initial values
 		int choice = -1;
 		Menu menu = new Menu();
 		
