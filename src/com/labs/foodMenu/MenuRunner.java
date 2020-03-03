@@ -21,7 +21,7 @@ public class MenuRunner {
 			switch(choice) {
 				case 1:
 						//Print Menu one options 
-						menu.printMenuoptions("beef_menu");
+						menu.printMenuoptions(choice);
 					break;
 				case 2:
 					break;
@@ -29,6 +29,18 @@ public class MenuRunner {
 			}
 			
 		}while(choice != 6);
+		
+		
+		//Once we exit after choice 6
+		System.out.println("Which menu do you want to order from? ");
+		//Get menu choice
+		//Print menu options as printed above
+		
+		System.out.println("Which meal do you wish to order? ");
+		//Get the meal number user wishes to order
+		//Print user meal options by calling menu.printOrderedMeal
+	
+		
 		
 	}
 
