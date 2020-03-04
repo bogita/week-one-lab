@@ -6,7 +6,20 @@ public class InterestCalculator {
 
 	public static void main(String[] args) {
 
-		switchStatementBasedRun();
+//		switchStatementBasedRun();
+		Scanner in = new Scanner(System.in);
+
+		System.out.println("Enter Total Amount: ");
+		double amount = in.nextDouble();
+
+		System.out.println("Enter total years : ");
+		int years = in.nextInt();
+
+		System.out.println("Enter monthly interest : ");
+		double interest = in.nextDouble();
+		
+		double total = calculateInterest(amount, interest, years);
+		System.out.println("Total amount : "+total);
 		
 	}
 
